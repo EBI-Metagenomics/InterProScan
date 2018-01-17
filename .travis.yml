@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+env:
+  - JAVA="7"
+  - JAVA="8"
+
+before_install:
+  - docker -v
+
+install:
+  - make BUILDARGS="--build-arg JAVA=$JAVA"
