@@ -1,0 +1,20 @@
+ID   DELTA_ACTX; PATTERN.
+AC   PS60018;
+DT   01-JUN-2005 CREATED; 01-JUN-2005 DATA UPDATE; 27-SEP-2017 INFO UPDATE.
+DE   Delta-atracotoxin (ACTX) family signature.
+PA   C-x(5)-W-C-x(4)-D-C-C-C-x(3)-C-x(2)-A-W-Y-x(5)-C-x(10,11)-C.
+NR   /RELEASE=2017_09,555594;
+NR   /TOTAL=6(6); /POSITIVE=6(6); /UNKNOWN=0(0); /FALSE_POS=0(0);
+NR   /FALSE_NEG=1; /PARTIAL=0;
+CC   /TAXO-RANGE=??E??; /MAX-REPEAT=1;
+CC   /SITE=1,disulfide; /SITE=4,disulfide; /SITE=7,disulfide;
+CC   /SITE=8,disulfide; /SITE=9,disulfide; /SITE=11,disulfide;
+CC   /SITE=17,disulfide; /SITE=19,disulfide;
+CC   /VERSION=1;
+DR   P83608    , TDM1A_MISBR, T; P81885    , TDT1B_HADVE, T;
+DR   P01478    , TXDT1_ATRRO, T; P13494    , TXDT1_HADVE, T;
+DR   P0C1R3    , TXDT1_ILLWI, T; P83560    , TXMG4_MACGS, T;
+DR   Q75WG5    , TXM14_MACGS, N;
+3D   1QDP; 1VTX; 2ROO;
+DO   PDOC60018;
+//

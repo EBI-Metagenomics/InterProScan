@@ -1,0 +1,37 @@
+ID   NLS_BP; MATRIX.
+AC   PS50079;
+DT   01-AUG-2006 CREATED; 01-APR-2007 DATA UPDATE; 01-APR-2006 INFO UPDATE.
+DE   Bipartite nuclear localization signal profile.
+MA   /GENERAL_SPEC: ALPHABET='ACDEFGHIKLMNPQRSTVWY'; LENGTH=17; TOPOLOGY=LINEAR;
+MA   /DISJOINT: DEFINITION=PROTECT; N1=1; N2=17;
+MA   /NORMALIZATION: MODE=1; FUNCTION=LINEAR; R1=0; R2=1.0; TEXT='RScore';
+MA   /CUT_OFF: LEVEL=0; SCORE=4; N_SCORE=4.0; MODE=1; TEXT='*';
+MA   /CUT_OFF: LEVEL=-1; SCORE=3; N_SCORE=3.0; MODE=1; TEXT='*';
+MA   /DEFAULT: D=*; I=*; B0=*; B1=*; E0=*; E1=*; MD=0; DM=0; M0=*;
+MA   /I: B0=0; B1=0;
+MA   /M: SY='B'; M=*,*,*,*,*,*,*,*,0,*,*,*,*,*,0,*,*,*,*,*;
+MA   /M: SY='B'; M=*,*,*,*,*,*,*,*,0,*,*,*,*,*,0,*,*,*,*,*;
+MA   /M:
+MA   /M:
+MA   /M:
+MA   /M:
+MA   /M:
+MA   /M:
+MA   /M:
+MA   /M:
+MA   /M: D=0;
+MA   /M: D=0;
+MA   /M: SY='B'; M=0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0;
+MA   /M: SY='B'; M=0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0;
+MA   /M: SY='B'; M=0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0;
+MA   /M: SY='B'; M=0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0;
+MA   /M: SY='B'; M=0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0;
+MA   /I: E0=0; E1=0;
+CC   /MATRIX_TYPE=localization_signal;
+CC   /SCALING_DB=none;
+CC   /SKIP-FLAG=TRUE;
+CC   /AUTHOR=K_Hofmann, N_Hulo;
+CC   /VERSION=2;
+PR   PRU00768;
+DO   PDOC00015;
+//

@@ -1,0 +1,27 @@
+ID   OPIOIDS_PRECURSOR; PATTERN.
+AC   PS01252;
+DT   01-NOV-1997 CREATED; 01-JUL-1999 DATA UPDATE; 27-SEP-2017 INFO UPDATE.
+DE   Endogenous opioids neuropeptides precursors signature.
+PA   C-x(3)-C-x(2)-C-x(2)-[KRH]-x(6,7)-[LIF]-[DNS]-x(3)-C-x-[LIVM]-[EQ]-C-
+PA   [EQ]-x(8)-W-x(2)-C.
+NR   /RELEASE=2017_09,555594;
+NR   /TOTAL=17(17); /POSITIVE=17(17); /UNKNOWN=0(0); /FALSE_POS=0(0);
+NR   /FALSE_NEG=1; /PARTIAL=3;
+CC   /TAXO-RANGE=??E??; /MAX-REPEAT=1;
+CC   /SITE=1,disulfide(?); /SITE=3,disulfide(?); /SITE=5,disulfide(?);
+CC   /SITE=12,disulfide(?); /SITE=16,disulfide(?); /SITE=21,disulfide(?);
+CC   /VERSION=1;
+DR   Q95104    , PDYN_BOVIN , T; Q60478    , PDYN_CAVPO , T;
+DR   P01213    , PDYN_HUMAN , T; O35417    , PDYN_MOUSE , T;
+DR   P01214    , PDYN_PIG   , T; P06300    , PDYN_RAT   , T;
+DR   P01212    , PENKA_XENLA, T; P01211    , PENK_BOVIN , T;
+DR   P47969    , PENK_CAVPO , T; P01210    , PENK_HUMAN , T;
+DR   P50175    , PENK_MESAU , T; P22005    , PENK_MOUSE , T;
+DR   P04094    , PENK_RAT   , T; O62647    , PNOC_BOVIN , T;
+DR   Q13519    , PNOC_HUMAN , T; Q64387    , PNOC_MOUSE , T;
+DR   Q62923    , PNOC_RAT   , T;
+DR   P07194    , PENKB_XENLA, P; Q28409    , PENK_FELCA , P;
+DR   P55791    , PNOC_PIG   , P;
+DR   P0DP56    , PENKV_MEIAT, N;
+DO   PDOC00964;
+//

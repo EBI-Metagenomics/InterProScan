@@ -1,0 +1,8 @@
+ID   GARP2; PATTERN.
+AC   PS60031;
+DT   01-MAR-2015 CREATED; 01-MAR-2015 DATA UPDATE; 01-MAR-2015 INFO UPDATE.
+DE   Glutamic acid-rich protein 2 (GARP2) signature.
+PA   C-D-V-Q-T-R-[VAE]-[MVT]-[GA]-A-G-[GS]-L.
+CC   /VERSION=1;
+DO   PDOC60031;
+//

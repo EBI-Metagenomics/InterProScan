@@ -1,0 +1,10 @@
+ID   CAMP_PHOSPHO_SITE; PATTERN.
+AC   PS00004;
+DT   01-APR-1990 CREATED; 01-APR-1990 DATA UPDATE; 01-APR-1990 INFO UPDATE.
+DE   cAMP- and cGMP-dependent protein kinase phosphorylation site.
+PA   [RK](2)-x-[ST].
+CC   /SITE=3,phosphorylation;
+CC   /SKIP-FLAG=TRUE;
+CC   /VERSION=1;
+DO   PDOC00004;
+//

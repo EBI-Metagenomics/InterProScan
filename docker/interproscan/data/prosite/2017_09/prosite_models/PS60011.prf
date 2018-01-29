@@ -1,0 +1,20 @@
+ID   PLANT_C6_AMP; PATTERN.
+AC   PS60011;
+DT   01-MAR-2005 CREATED; 01-OCT-2006 DATA UPDATE; 27-SEP-2017 INFO UPDATE.
+DE   Plant C6 type antimicrobial peptide (AMP) signature.
+PA   C-[IV]-x(2,4)-[RG]-C-x(2,6)-[GP]-x-C-C-S-x(2,4)-C-x-{C}-x(4,8)-C.
+NR   /RELEASE=2017_09,555594;
+NR   /TOTAL=9(9); /POSITIVE=9(9); /UNKNOWN=0(0); /FALSE_POS=0(0);
+NR   /FALSE_NEG=0; /PARTIAL=0;
+CC   /TAXO-RANGE=??E??; /MAX-REPEAT=1;
+CC   /SITE=1,disulfide; /SITE=5,disulfide; /SITE=9,disulfide;
+CC   /SITE=10,disulfide; /SITE=13,disulfide; /SITE=15,disulfide;
+CC   /VERSION=3;
+DR   P83651    , ALO1_ACRLO , T; P83652    , ALO2_ACRLO , T;
+DR   P83653    , ALO3_ACRLO , T; O81338    , AMP1_MESCR , T;
+DR   P25403    , AMP1_MIRJA , T; P25404    , AMP2_MIRJA , T;
+DR   P27275    , AMP_AMACA  , T; Q5I2B2    , AMP_AMARE  , T;
+DR   P81418    , PAFP_PHYAM , T;
+3D   1DKC; 1MMC; 1Q3J; 1ZNT; 1ZUV; 1ZWU;
+DO   PDOC60011;
+//

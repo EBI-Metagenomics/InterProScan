@@ -1,0 +1,22 @@
+ID   PTN_MK_1; PATTERN.
+AC   PS00619;
+DT   01-JUN-1992 CREATED; 01-NOV-1997 DATA UPDATE; 27-SEP-2017 INFO UPDATE.
+DE   PTN/MK heparin-binding protein family signature 1.
+PA   S-[DE]-C-x-[DE]-W-x-W-x(2)-C-x-P-x-[SN]-x-D-C-G-[LIVMA]-G-x-R-E-G.
+NR   /RELEASE=2017_09,555594;
+NR   /TOTAL=15(15); /POSITIVE=15(15); /UNKNOWN=0(0); /FALSE_POS=0(0);
+NR   /FALSE_NEG=0; /PARTIAL=0;
+CC   /TAXO-RANGE=??E??; /MAX-REPEAT=1;
+CC   /SITE=3,disulfide(?); /SITE=10,disulfide(?); /SITE=17,disulfide(?);
+CC   /VERSION=1;
+DR   P48530    , MKA_XENLA  , T; P48531    , MKB_XENLA  , T;
+DR   P24052    , MK_CHICK   , T; P21741    , MK_HUMAN   , T;
+DR   P12025    , MK_MOUSE   , T; Q9R1S9    , MK_RAT     , T;
+DR   Q6P8F3    , MK_XENTR   , T; P48532    , PTNA_XENLA , T;
+DR   P48533    , PTNB_XENLA , T; P21782    , PTN_BOVIN  , T;
+DR   P32760    , PTN_CHICK  , T; P21246    , PTN_HUMAN  , T;
+DR   P63089    , PTN_MOUSE  , T; P79281    , PTN_PIG    , T;
+DR   P63090    , PTN_RAT    , T;
+3D   1MKN; 2N6F;
+DO   PDOC00540;
+//

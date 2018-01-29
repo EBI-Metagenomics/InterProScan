@@ -1,0 +1,15 @@
+ID   SVP_I; PATTERN.
+AC   PS00313;
+DT   01-APR-1990 CREATED; 01-OCT-1993 DATA UPDATE; 27-SEP-2017 INFO UPDATE.
+DE   Seminal vesicle protein I repeats signature.
+PA   [IVM]-x-G-Q-D-x-V-K-x(5)-[KN]-G-x(3)-[STLV].
+NR   /RELEASE=2017_09,555594;
+NR   /TOTAL=12(3); /POSITIVE=12(3); /UNKNOWN=0(0); /FALSE_POS=0(0);
+NR   /FALSE_NEG=0; /PARTIAL=0;
+CC   /TAXO-RANGE=??E??; /MAX-REPEAT=8;
+CC   /SITE=4,cross-linking; /SITE=8,cross-linking; /SITE=10,cross-linking;
+CC   /VERSION=1;
+DR   P19957    , ELAF_HUMAN , T; P16225    , SPAI_PIG   , T;
+DR   P05995    , SVP1_CAVPO , T;
+DO   PDOC00282;
+//
