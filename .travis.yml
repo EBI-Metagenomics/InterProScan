@@ -4,11 +4,11 @@ services:
   - docker
 
 env:
-  - JAVA="7"
-  - JAVA="8"
+  - IMAGE="openjdk:7" IPR=5
+  - IMAGE="openjdk:8" IPR=5
 
 before_install:
   - docker -v
 
 install:
-  - make BUILDARGS="--build-arg JAVA=$JAVA"
+  - make BUILDARGS="--build-arg IMAGE=$IMAGE --build-arg IPR=$IPR"
