@@ -19,7 +19,7 @@ RUN  tar -pxvzf interproscan-5.27-66.0-64-bit.tar.gz \
     --exclude="interproscan-5.27-66.0/data/sfld" \
     --exclude="interproscan-5.27-66.0/data/smart" \
     --exclude="interproscan-5.27-66.0/data/superfamily" \
-    --exclude="interproscan-5.27-66.0/data/tmhmm"
+    --exclude="interproscan-5.27-66.0/data/tmhmm" \
     -C /opt/interproscan --strip-components=1
 
 ENTRYPOINT ["/bin/bash", "interproscan/interproscan.sh"]
