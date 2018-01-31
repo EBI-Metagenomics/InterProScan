@@ -11,6 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+MAINTAINER Ola Tarkowska (EMBL-EBI) <olat@ebi.ac.uk>
 
 ARG IMAGE=openjdk:8
 FROM $IMAGE
@@ -47,4 +48,4 @@ RUN rm -f interproscan-$IPRSCAN-64-bit.tar.gz interproscan-$IPRSCAN-64-bit.tar.g
 ENTRYPOINT ["/bin/bash", "interproscan/interproscan.sh"]
 
 # Example CMD
-# docker run --rm --name interproscan -v /tmp:/tmp olat/interproscan-docker -dp --goterms --pathways -f tsv --appl "PfamA,TIGRFAM,PRINTS,PrositePatterns,Gene3d" -o /tmp/out.ipr -i /tmp/test.fasta
+# docker run --rm --name interproscan -v /tmp:/tmp olat/interproscan-metagenomics -dp --goterms --pathways -f tsv --appl "PfamA,TIGRFAM,PRINTS,PrositePatterns,Gene3d" -o /tmp/out.ipr -i /tmp/test.fasta
