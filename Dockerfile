@@ -11,10 +11,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-MAINTAINER Ola Tarkowska (EMBL-EBI) <olat@ebi.ac.uk>
+FROM openjdk:8
 
-ARG IMAGE=openjdk:8
-FROM $IMAGE
+MAINTAINER Ola Tarkowska (EMBL-EBI) <olat@ebi.ac.uk>
 
 ARG IPR=5
 ENV IPR $IPR
