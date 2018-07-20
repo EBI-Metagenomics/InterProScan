@@ -4,11 +4,12 @@ services:
   - docker
 
 env:
-  - IMAGE="openjdk:7" IPR=5
-  - IMAGE="openjdk:8" IPR=5
+  - IMAGE="openjdk:7"
+  - IMAGE="openjdk:8"
 
 before_install:
   - docker -v
 
 install:
-  - make BUILDARGS="--build-arg IMAGE=$IMAGE --build-arg IPR=$IPR"
+  - (cd core && make BUILDARGS="--build-arg IMAGE=$IMAGE)
+  - (cd data && make)
